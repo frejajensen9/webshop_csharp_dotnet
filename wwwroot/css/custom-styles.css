@@ -1,0 +1,32 @@
+﻿.navbar {
+    height: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+    margin-top: 140px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.no-border {
+    border: none;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

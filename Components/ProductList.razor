@@ -1,0 +1,25 @@
+﻿@using Webapp.WebSite.Models
+@using Webapp.WebSite.Services
+@using Microsoft.AspNetCore.Components.Web
+@inject JsonFileProductService ProductService
+
+<div class="container">
+    <div class="row">
+        @foreach (var product in ProductService.GetProducts())
+        {
+            <div class="col-md-3">
+                <a asp-page="/Privacy" asp-route-id="@product.ProductId">
+                    <div class="card mb-4 no-border">
+                        <div class="card-img" style="background-image: url('@product.Image');"></div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="card-title">@product.Name</h5>
+                                <span>@product.Price</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>

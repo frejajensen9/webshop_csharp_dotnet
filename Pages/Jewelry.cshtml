@@ -1,0 +1,14 @@
+﻿@page
+@using Webapp.WebSite.Components
+@model Jewelry
+
+@{
+    ViewData["Title"] = "Jewelry";
+}
+
+
+@(await Html.RenderComponentAsync<ProductList>(RenderMode.ServerPrerendered))
+
+
+<h1>This is</h1>
+

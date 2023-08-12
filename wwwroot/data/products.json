@@ -1,0 +1,23 @@
+[
+  {
+    "id": "p1",
+    "name": "Product 1",
+    "price": 9,
+    "description": "This is the description for Product 1.",
+    "image": "https://maanesten.com/cdn/shop/products/Mistrale_gold_ring_b.png?v=1677748955\u0026width=1206"
+  },
+  {
+    "id": "p2",
+    "name": "Product 2",
+    "price": 19,
+    "description": "This is the description for Product 2.",
+    "image": "https://maanesten.com/cdn/shop/products/Mistrale_gold_ring_b.png?v=1677748955\u0026width=1206"
+  },
+  {
+    "id": "p3",
+    "name": "Product 3",
+    "price": 14,
+    "description": "This is the description for Product 3.",
+    "image": "https://maanesten.com/cdn/shop/products/Mistrale_gold_ring_b.png?v=1677748955\u0026width=1206"
+  }
+]
